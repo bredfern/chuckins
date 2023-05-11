@@ -11,11 +11,6 @@ function Navbar(){
     // const [currentTheme, setCurrentTheme] = useState(localStorage.getItem("theme"))
     const [currentTheme, setCurrentTheme] = useState(null)
 
-
-    const logoutUser = () => {
-
-    }
-
     useEffect(() => {
         themeChange(false)
         console.log(currentTheme)
@@ -38,8 +33,6 @@ function Navbar(){
                 <Bars3Icon className="h-5 inline-block w-5"/>
             </label>
         </div> 
-  
-  
         <div className="flex-1 px-2 mx-2">
             <Link href="/">
             <span className='font-bold text-xl'>
@@ -51,32 +44,13 @@ function Navbar(){
           <ul className="menu menu-horizontal">
                 <Navlinks />
           </ul>
-
-        
           <label className="swap ">
                 <input type="checkbox"/>
                 <SunIcon data-set-theme="light" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "dark" ? "swap-on" : "swap-off")}/>
                 <MoonIcon data-set-theme="dark" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "light" ? "swap-on" : "swap-off")} />
             </label>
-
-          <div className="dropdown ml-6 dropdown-end">
-                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                    <div className="w-6 rounded-full">
-                    <img src="https://placeimg.com/80/80/people" alt="profile" />
-                    </div>
-                </label>
-                <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100  rounded-box w-52">
-                    <li className="justify-between">
-                    <Link href={'/app/settings-profile'}>
-                        Settings
-                        </Link>
-                    </li>
-                    <div className="divider mt-0 mb-0"></div>
-                    <li><a onClick={logoutUser}>Logout</a></li>
-                </ul>
-            </div>
+          </div>
         </div>
-      </div>
       </div>
     )
 }

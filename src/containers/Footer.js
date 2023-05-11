@@ -1,5 +1,3 @@
-
-
 function Footer() {
     return(
         <div>
@@ -10,15 +8,12 @@ function Footer() {
           </div>
           <div>
             <span className="footer-title">Products</span>
-            <a className="link link-hover">Branding</a>
-            <a className="link link-hover">Design</a>
-            <a className="link link-hover">Marketing</a>
-            <a className="link link-hover">Blog</a>
+            <a className="link link-hover">Life Insurance</a>
           </div>
           <div>
             <span className="footer-title">Company</span>
             <a className="link link-hover">About</a>
-            <a className="link link-hover">Contact</a>
+            <a className="link link-hover">Consultation</a>
             <a className="link link-hover">Careers</a>
           </div>
         </footer>
@@ -29,7 +24,7 @@ function Footer() {
         </div>
       </div>
     </div>
-    )
+  )
 }
 
 export default Footer

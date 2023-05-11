@@ -2,10 +2,10 @@ function Hero(){
     return(
         <div className="hero py-32 bg-base-100">
             <div className="hero-content max-w-5xl flex-col lg:flex-row-reverse">
-                <img src="https://picsum.photos/seed/picsum/500/300" className="max-w-sm rounded-lg shadow-2xl" />
+                <img src="/tree.jpg" className="max-w-sm rounded-lg shadow-2xl" />
                 <div>
-                <h1 className="text-5xl font-bold">Box Office News!</h1>
-                <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <h1 className="text-5xl font-bold">Take Control!</h1>
+                <p className="py-6">Hi, I am Charles J McKillips, Life Agent NPM #20430931, let me help you save money and take control of your future!</p>
                 <button className="btn btn-primary">Schedule a Consultation</button>
                 </div>
             </div>

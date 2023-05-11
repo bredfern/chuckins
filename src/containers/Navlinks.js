@@ -8,7 +8,6 @@ function Navlinks(){
             <li className="mr-2"><Link href="/products">Products</Link></li>
             <li className="mr-2"><Link href="/quote">Instant Quote</Link></li>
             <li className="mr-2"><Link href="/careers">Careers</Link></li>
-            <li className="mr-2"><Link href="/contact">Contact</Link></li>
         </>
     )
 }

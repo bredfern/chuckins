@@ -13,11 +13,26 @@ export default function Page() {
         </p>
         <p>
           Current Carriers:
-          <br />
-          Americo; Ethos; TransAmerica; Aetna/CVS; Great Western; Prosperity; Mutual of Omaha; Foresters
+          <ul>
+            <li>Americo</li>
+            <li>Ethos</li>
+            <li>TransAmerica</li>
+            <li>Aetna/CVS</li>
+            <li>Great Western</li>
+            <li>Prosperity</li>
+            <li>Mutual of Omaha</li>
+            <li>Foresters</li>
+          </ul>
         </p>
         <p>
-          NPN#20430931; CA#4229790; NJ#3002193051; WI#20430931; OH#1460259; MI#: awaiting documents;
+          States I cover:
+          <ul>
+            <li>NPN#20430931</li>
+            <li>CA#4229790</li>
+            <li>NJ#3002193051</li>
+            <li>WI#20430931</li>
+            <li>OH#1460259</li>
+            <li>MI#: awaiting documents;</li>
         </p>
       </InnerPageContainer>
     )

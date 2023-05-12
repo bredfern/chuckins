@@ -4,26 +4,21 @@ function Footer() {
           <div className="bg-base-300 flex justify-center">
             <footer className="footer p-10 max-w-5xl  text-base-content">
               <div>
-               <p>
-	        Charles J McKillips, Life Agent<br />
-	        NPM #20430931
-	       </p>
+                <span className="footer-title">About</span>
+                <a className="link link-hover">Charles J McKillips</a>
+                <a className="link link-hover">Life Agent</a>
+	            <a className="link link-hover">NPM #20430931</a>
+	            <a className="link link-hover">424-298-9612</a>
               </div>
               <div>
                 <span className="footer-title">Products</span>
-                <a className="link link-hover">Life Insurance</a>
-	            <a className="link link-hover">Whole Life</a>
-	            <a className="link link-hover">Term Life</a>
-	            <a className="link link-hover">IUL</a>
-	            <a className="link link-hover">Annuities</a>
-	            <a className="link link-hover">Mortgage Protection</a>
-                <a className="link link-hover">Final Expense</a>
+                <a href="/products" className="link link-hover">Learn More</a>
               </div>
               <div>
                 <span className="footer-title">Company</span>
-                <a className="link link-hover">About</a>
-                <a className="link link-hover">Consultation</a>
-                <a className="link link-hover">Careers</a>
+                <a href="/about" className="link link-hover">About</a>
+                <a href="/consultation" className="link link-hover">Consultation</a>
+                <a href="/careers" className="link link-hover">Careers</a>
               </div>
             </footer>
           </div>

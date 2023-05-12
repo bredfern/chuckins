@@ -14,7 +14,7 @@ function Navbar(){
             <div className="flex-1 px-2 mx-2">
               <Link href="/">
                 <span className='font-bold text-xl'>
-                  <img className="mask inline-block mr-2 mask-circle w-10" src="/charles.jpg" />C.J.M.
+                  <img className="mask inline-block mr-2 mask-circle w-10" src="/charles.jpg" />
                 </span>
               </Link>
             </div>

@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function Footer() {
     return(
         <div>
@@ -7,20 +9,19 @@ function Footer() {
                 <span className="footer-title">About</span>
                 <a className="link link-hover">Charles J McKillips</a>
                 <a className="link link-hover">Life Agent</a>
-	            <a className="link link-hover">NPM #20430931</a>
-	            <a className="link link-hover">424-298-9612</a>
+	        <a className="link link-hover">NPM #20430931</a>
+	        <a className="link link-hover">424-298-9612</a>
               </div>
               <div>
                 <span className="footer-title">Products</span>
                 <a className="link link-hover">Life Insurance, Whole Life</a>
                 <a className="link link-hover">IUL, Annuities, Mortgage, Funery</a>
-                <a href="/products" className="link link-hover">Learn More</a>
               </div>
               <div>
                 <span className="footer-title">Company</span>
-                <a href="/about" className="link link-hover">About</a>
-                <a href="/consultation" className="link link-hover">Consultation</a>
-                <a href="/careers" className="link link-hover">Careers</a>
+                <Link href="/about" className="link link-hover">About</Link>
+                <Link href="/consultation" className="link link-hover">Consultation</Link>
+                <Link href="/careers" className="link link-hover">Careers</Link>
               </div>
             </footer>
           </div>

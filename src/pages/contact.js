@@ -4,9 +4,8 @@ export default function Page() {
     return (
       <InnerPageContainer title="Contact Us">
             <p>
-            We are reachable at - info@landingpage.com
+            Call us at 424-298-9612.
             </p>
-            
       </InnerPageContainer>
     )
   }

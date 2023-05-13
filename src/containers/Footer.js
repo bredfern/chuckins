@@ -12,6 +12,8 @@ function Footer() {
               </div>
               <div>
                 <span className="footer-title">Products</span>
+                <a className="link link-hover">Life Insurance, Whole Life</a>
+                <a className="link link-hover">IUL, Annuities, Mortgage, Funery</a>
                 <a href="/products" className="link link-hover">Learn More</a>
               </div>
               <div>

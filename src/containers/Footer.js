@@ -9,13 +9,16 @@ function Footer() {
                 <span className="footer-title">About</span>
                 <a className="link link-hover">Charles J McKillips</a>
                 <a className="link link-hover">Life Agent</a>
-	        <a className="link link-hover">NPM #20430931</a>
-	        <a className="link link-hover">424-298-9612</a>
+	              <a className="link link-hover">NPM #20430931</a>
+	              <a className="link link-hover">424-298-9612</a>
               </div>
               <div>
                 <span className="footer-title">Products</span>
-                <a className="link link-hover">Life Insurance, Whole Life</a>
-                <a className="link link-hover">IUL, Annuities, Mortgage, Funery</a>
+                <a className="link link-hover">Life Insurance</a> 
+                <a className="link link-hover">Whole Life, IUL</a>
+                <a className="link link-hover">Annuities</a> 
+                <a className="link link-hover">Mortgage</a> 
+                <a className="link link-hover">Final Expense</a>
               </div>
               <div>
                 <span className="footer-title">Company</span>

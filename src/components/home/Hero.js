@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function Hero(){
     return(
         <div className="hero py-32 bg-base-100">

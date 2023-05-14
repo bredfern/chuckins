@@ -1,5 +1,5 @@
 const featuresData = [
-    {title : "Charles J McKillips", description : "Life Agent NPM #20430931 424-298-9612 IMO: Family First Life Tri-State, The Barlettano Group"},
+    {title : "Charles J McKillips", description : "Life Agent NPM #20430931, 424-298-9612, IMO:, Family First Life, Tri-State, The Barlettano Group"},
     {title : "Current Carriers", description : "Americo, Americo, Ethos, TransAmerica, Aetna/CVS. Great Western, Prosperity, Mutual of Omaha, TransAmerica"},
     {title : "States Covered", description : "NPN#20430931, CA#4229790, NJ#3002193051, WI#20430931, OH#1460259, MI awaiting documents"},
 ]
@@ -16,9 +16,11 @@ function Features(){
                             <div key={k} className="card w-full bg-base-200 shadow-xl hover:shadow-2xl">
                                 <div className="card-body mt-4 items-center text-center">
                                     <h2 className="card-title">{i.title}</h2>
-                                    <p>{i.description}</p>
+                                    {i.description.split(',').map((s,t) => {
+                                        return ( <p key={t}>{s}</p> )
+                                    })}
                                 </div>
-                                </div>
+                            </div>
                         )
                     })
                 }

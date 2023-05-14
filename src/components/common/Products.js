@@ -21,7 +21,7 @@ function Features(){
                     featuresData.map((i, k) => {
                         return(
                             <div key={k} className="card w-66 bg-base-100 shadow-xl image-full">
-                              <figure><Image src="tree.jpg" alt="Products" width={100} height={100} /></figure>
+                              <figure><Image src="/tree.jpg" alt="Products" width={640} height={480} /></figure>
                               <div className="card-body">
                                 <h2 className="card-title">{i.product}</h2>
                                 <p>{i.description}</p>

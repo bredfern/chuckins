@@ -20,9 +20,9 @@ function Navbar(){
                      width={500}
                      height={500}
                      className="mask inline-block mr-2 mask-circle w-10"
-                     alt="CJM Life"
+                     alt="McKillips Life"
                   />
-                  CJM Life
+                  McKillips Life
                 </span>
               </Link>
             </div>

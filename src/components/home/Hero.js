@@ -9,7 +9,7 @@ function Hero(){
                 <div>
                 <h1 className="text-5xl font-bold">Take Control!</h1>
                 <p className="py-6">Hi, I am Charles J McKillips, Life Agent NPM #20430931, let me help you save money and take control of your future!</p>
-                <Link href="/consultation" className="btn btn-primary">Schedule a Consultation</Link>
+                <Link href="/consultation" className="btn btn-primary bg-black">Schedule a Consultation</Link>
                 </div>
             </div>
         </div>

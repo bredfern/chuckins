@@ -8,7 +8,7 @@ export default function Page() {
             <title> CJM Life - Sell with Us!</title>
         </Head>
         <p>
-          Agent looking for a new team? Call us to find out more. 424-298-9612
+          Agent looking for a new team?  Looking to get licensed and break into the industry? Call us to find out more. 424-298-9612
         </p>
       </InnerPageContainer>
     )

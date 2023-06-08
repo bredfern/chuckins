@@ -16,13 +16,12 @@ function Navbar(){
               <Link href="/">
                 <span className='font-bold text-xl'>
                   <Image
-                     src="/charles.jpg"
-                     width={500}
-                     height={500}
-                     className="mask inline-block mr-2 mask-circle w-10"
-                     alt="McKillips Life"
+                     src="/logo.png"
+                     width={680}
+                     height={143}
+                     className="inline-block"
+                     alt="McKillips Agency"
                   />
-                  McKillips Life
                 </span>
               </Link>
             </div>

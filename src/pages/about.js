@@ -7,6 +7,7 @@ export default function Page() {
       <InnerPageContainer title="About Us">
           <Head>
             <title> CJM Life - Let us help you take control of your insurance and your life!</title>
+            <meta name="description" content="About" />
           </Head>
 	      <About />
       </InnerPageContainer>

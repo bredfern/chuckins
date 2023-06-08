@@ -46,7 +46,7 @@ function Features(){
                         <h2 className="card-title">{i.product}</h2>
                         <p>{i.description}</p>
                         <div className="card-actions justify-end">
-                          <Link href="/consultation" className="btn btn-primary">Find out More</Link>
+                          <Link href="/consultation" className="btn bg-black">Find out More</Link>
                         </div>
                       </div>
                     </div>

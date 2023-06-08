@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function Navbar(){
     return(
-        <div className="w-full flex justify-center  shadow-md  text-primary-content bg-primary bg-black">
+        <div className="w-full flex justify-center  shadow-md  text-primary-content bg-black">
           <div className="navbar bg-black  max-w-5xl">
             <div className="flex-none lg:hidden">
               <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">

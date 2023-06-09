@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 // <Link href="https://agents.ethoslife.com/invite/f42c7?fbclid=IwAR2rNtqeIGXpBAIIVLiS2zRHJPxMax3MFby2_Ss1h0mLYPDIuzhIyYYK_zM">Instant Quote</Link>
 

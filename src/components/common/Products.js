@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+// <Link href="https://agents.ethoslife.com/invite/f42c7?fbclid=IwAR2rNtqeIGXpBAIIVLiS2zRHJPxMax3MFby2_Ss1h0mLYPDIuzhIyYYK_zM">Instant Quote</Link>
+
 const featuresData = [
     {product: "Whole Life", description: "Permanent insurance which never expires or increases in price, while gaining cash value.  Used primarily for final expenses and legacy building."},
     {product: "Term Life", description: "Temporary insurance for a set period of time that is generally lower cost.  Used for situations that only last a certain amount of time such as mortgage protection, income protection, and children’s education protection."},
@@ -18,7 +20,6 @@ function Features(){
               <div className="card w-66">
               <div className="card-body p-2">
                 <h2 className="card-title">Life Insurance</h2>
-
                 <p>
                 Life insurance can be a tricky topic to discuss, but it’s an important one. With the right type of life insurance, your spouse and children will be financially secure after you’re gone.
                 </p>
@@ -40,8 +41,7 @@ function Features(){
               {
                 featuresData.map((i, k) => {
                   return(
-                    <div key={k} className="card w-66 bg-base-100 shadow-xl image-full">
-                      <figure><Image src="/tree.jpg" alt="Products" width={640} height={480} /></figure>
+                    <div key={k} className="card w-66 bg-base-100 shadow-xl">
                       <div className="card-body">
                         <h2 className="card-title">{i.product}</h2>
                         <p>{i.description}</p>

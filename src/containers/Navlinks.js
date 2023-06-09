@@ -6,7 +6,6 @@ function Navlinks(){
         <>
             <li className="mr-2"><Link href="/about">About</Link></li>
             <li className="mr-2"><Link href="/products">Products</Link></li>
-            <li className="mr-2"><Link href="https://agents.ethoslife.com/invite/f42c7?fbclid=IwAR2rNtqeIGXpBAIIVLiS2zRHJPxMax3MFby2_Ss1h0mLYPDIuzhIyYYK_zM">Instant Quote</Link></li>
             <li className="mr-2"><Link href="/consultation">Consultation</Link></li>
             <li className="mr-2"><Link href="/careers">Careers</Link></li>
         </>

@@ -1,6 +1,8 @@
+import Link from 'next/link'
+
 const featuresData = [
-    {title : "Charles J McKillips", description : "Life Agent NPM #20430931, 424-298-9612, IMO:, Family First Life, Tri-State, The Barlettano Group"},
-    {title : "Current Carriers", description : "Americo, Americo, Ethos, TransAmerica, Aetna/CVS. Great Western, Prosperity, Mutual of Omaha, TransAmerica"},
+    {title : "Charles J McKillips", description : "Life Agent NPN #20430931, 424-298-9612, IMO:, Family First Life;, Tri-State, The Barlettano Group"},
+    {title : "Current Carriers", description : "Americo, Americo, Ethos, TransAmerica, Aetna, CVS, Great Western, Prosperity, Mutual of Omaha, TransAmerica"},
     {title : "States Covered", description : "NPN#20430931, CA#4229790, NJ#3002193051, WI#20430931, OH#1460259, MI awaiting documents"},
 ]
 
@@ -24,6 +26,10 @@ function Features(){
               <p>
                 We specialize in mortgage protection life insurance, final expense life insurance, universal life policies for retirement planning, and fixed index annuities for retirement protection. We deal with a variety of insurance companies, including Americo, Mutual of Omaha, and others, to fulfill all of our clients&apos; needs.
               </p>
+
+              <p>
+                <p><Link href="/consultation" className="btn btn-primary bg-black">Schedule a Consultation</Link></p>
+              </p>
               </div>
               </div>
                 <div className="grid mt-12 md:grid-cols-3 grid-cols-1 gap-4">
@@ -31,10 +37,10 @@ function Features(){
                     featuresData.map((i, k) => {
                         return(
                             <div key={k} className="card w-full bg-base-200 shadow-xl hover:shadow-2xl">
-                                <div className="card-body mt-4 items-center text-center">
+                                <div className="card-body mt-4">
                                     <h2 className="card-title">{i.title}</h2>
                                     {i.description.split(',').map((s,t) => {
-                                        return ( <p key={t}>{s}</p> )
+                                        return ( <div key={t}>{s}</div> )
                                     })}
                                 </div>
                             </div>

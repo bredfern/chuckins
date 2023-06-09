@@ -17,6 +17,7 @@ function Navbar(){
                 <span className='font-bold text-xl'>
                   <Image
                      src="/logo.png"
+                     priority={true}
                      width={680}
                      height={143}
                      className="inline-block"

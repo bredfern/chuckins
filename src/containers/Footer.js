@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+const copyrightDate = new Date().getFullYear();
+
 function Footer() {
     return(
         <div>
@@ -7,18 +9,19 @@ function Footer() {
             <footer className="footer p-10 max-w-5xl  text-base-content">
               <div>
                 <span className="footer-title">About</span>
-                <a className="link link-hover">Charles J McKillips</a>
-                <a className="link link-hover">Life Agent</a>
-	              <a className="link link-hover">NPM #20430931</a>
-	              <a className="link link-hover">424-298-9612</a>
+                <Link href="/consultation" className="link link-hover">Charles J McKillips</Link>
+                <Link href="/consultation" className="link link-hover">Life Agent</Link>
+                <Link href="/consultation" className="link link-hover">NPN #20430931</Link>
+                <Link href="/consultation" className="link link-hover">424-298-9612</Link>
               </div>
               <div>
                 <span className="footer-title">Products</span>
-                <a className="link link-hover">Life Insurance</a> 
-                <a className="link link-hover">Whole Life, IUL</a>
-                <a className="link link-hover">Annuities</a> 
-                <a className="link link-hover">Mortgage</a> 
-                <a className="link link-hover">Final Expense</a>
+                <Link href="/consultation" className="link link-hover">Life Insurance</Link>
+                <Link href="/consultation" className="link link-hover">Whole Life</Link>
+                <Link href="/consultation" className="link link-hover">IUL</Link>
+                <Link href="/consultation" className="link link-hover">Annuities</Link>
+                <Link href="/consultation" className="link link-hover">Mortgage</Link>
+                <Link href="/consultation" className="link link-hover">Final Expense</Link>
               </div>
               <div>
                 <span className="footer-title">Company</span>
@@ -30,7 +33,7 @@ function Footer() {
           </div>
          <div className="p-4 flex justify-center bg-neutral text-neutral-content">
           <div className="max-w-5xl ">
-            <p>Copyright © 2023 - All right reserved</p>
+            <p>Copyright © {copyrightDate} - All right reserved</p>
           </div>
         </div>
     </div>

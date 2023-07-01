@@ -6,9 +6,9 @@ export default function Page() {
     return (
       <InnerPageContainer title="Schedule a Consultation">
         <Head>
-            <title> CJM Life - Schedule a Consultation</title>
+            <title> McKillips Agency - schedule an appointment with us.</title>
         </Head>
-	<InlineWidget url="https://calendly.com/charlesjmckillips/30min" />
+	    <InlineWidget url="https://calendly.com/charlesjmckillips/30min" />
       </InnerPageContainer>
     )
   }

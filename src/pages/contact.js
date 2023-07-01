@@ -5,7 +5,8 @@ export default function Page() {
     return (
       <InnerPageContainer title="Contact Us">
         <Head>
-            <title> CJM Life - Contact us</title>
+            <title> McKillips Agency - Contact Us.</title>
+            <meta name="description" content="Contact Us" />
         </Head>
         <p>
           Call us at 424-298-9612.

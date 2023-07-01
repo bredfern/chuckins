@@ -5,7 +5,8 @@ export default function Page() {
     return (
       <InnerPageContainer title="Careers">
         <Head>
-            <title> CJM Life - Sell with Us!</title>
+            <title> McKillips Agency - Sell insurance with us.</title>
+            <meta name="description" content="Careers" />
         </Head>
        <Careers />
       </InnerPageContainer>

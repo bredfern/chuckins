@@ -6,7 +6,7 @@ export default function Page() {
     return (
       <InnerPageContainer title="About Us">
           <Head>
-            <title> CJM Life - Let us help you take control of your insurance and your life!</title>
+            <title> McKillips Agency - About our insurance products.!</title>
             <meta name="description" content="About" />
           </Head>
 	      <About />

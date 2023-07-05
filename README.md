@@ -1,4 +1,4 @@
-# CJM Life Website
+# Mckillips Agency Website
 
 ## Feedback
 

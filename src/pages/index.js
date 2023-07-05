@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
         <Head>
-          <title> CJM Life - Let us help you take control of your insurance and your life!</title>
+          <title> Mckillips Agency - Let us help you take control of your insurance and your life!</title>
         </Head>
         <Hero />
     </>

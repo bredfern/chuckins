@@ -12,7 +12,7 @@ function Footer() {
                 <Link href="/consultation" className="link link-hover">Charles J McKillips</Link>
                 <Link href="/consultation" className="link link-hover">Life Agent</Link>
                 <Link href="/consultation" className="link link-hover">NPN #20430931</Link>
-                <Link href="/consultation" className="link link-hover">424-298-9612</Link>
+                <Link href="/consultation" className="link link-hover">414-236-9370</Link>
               </div>
               <div>
                 <span className="footer-title">Products</span>

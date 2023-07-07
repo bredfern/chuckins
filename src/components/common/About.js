@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const featuresData = [
-    {title : "Charles J McKillips", description : "Life Agent NPN #20430931, 424-298-9612, IMO:, Family First Life;, Tri-State, The Barlettano Group"},
+    {title : "Charles J McKillips", description : "Life Agent NPN #20430931, 414-236-9370, IMO:, Family First Life;, Tri-State, The Barlettano Group"},
     {title : "Current Carriers", description : "Americo, Americo, Ethos, TransAmerica, Aetna, CVS, Great Western, Prosperity, Mutual of Omaha, TransAmerica"},
     {title : "States Covered", description : "NPN#20430931, CA#4229790, NJ#3002193051, WI#20430931, OH#1460259, MI awaiting documents"},
 ]

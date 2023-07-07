@@ -11,7 +11,7 @@ function Features(){
                   <p>
                     Agent looking for a new team?
                     Looking to get licensed and break into the industry?
-                    Call us to find out more. 424-298-9612
+                    Call us to find out more at 414-236-9370. 
                   </p>
                   <p>
                    <Link href="/consultation" className="btn btn-primary bg-black">Schedule an Interview</Link>
